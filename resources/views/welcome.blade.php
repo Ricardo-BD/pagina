@@ -150,10 +150,10 @@
             ASPEL
           </p>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-             <li><a class="dropdown-item" href="ccaaspel.html">CCA ASPEL</a></li>
-                <li><a class="dropdown-item" href="listaaspel.html">LISTA DE PRECIOS</a></li>
-                <li><a class="dropdown-item" href="soporte.html">SOPORTE TECNICO</a></li>
-                <li><a class="dropdown-item" href="descargatusistema.html">DESCARGA TU SISTEMA</a></li>
+             <li><a class="dropdown-item" href="#">CCA ASPEL</a></li>
+                <li><a class="dropdown-item" href="#">LISTA DE PRECIOS</a></li>
+                <li><a class="dropdown-item" href="#">SOPORTE TECNICO</a></li>
+                <li><a class="dropdown-item" href="#">DESCARGA TU SISTEMA</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown" id="dmenu">
@@ -161,10 +161,10 @@
             SERVICIOS
           </p>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="computo.html">COMPUTO</a></li>
-            <li><a class="dropdown-item" href="desarrollo.html">DESARROLLO</a></li>
-            <li><a class="dropdown-item" href="servidores.html">RENTA DE SERVIDORES</a></li>
-            <li><a class="dropdown-item" href="cableado.html">CABLEADO ESTRUCTURADO</a></li>
+            <li><a class="dropdown-item" href="#">COMPUTO</a></li>
+            <li><a class="dropdown-item" href="#">DESARROLLO</a></li>
+            <li><a class="dropdown-item" href="#">RENTA DE SERVIDORES</a></li>
+            <li><a class="dropdown-item" href="#">CABLEADO ESTRUCTURADO</a></li>
           </ul>
         </li>
         <li class="nav-item">
