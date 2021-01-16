@@ -10,8 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <script src="{{ asset('resources/js/jquery-3.5.1.slim.min.js') }}"></script>
-    <script src="{{ asset('resources/js/bootstrap.bundle.js') }}" ></script>
+    <script src="{{ asset('js/jquery-3.5.1.slim.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.js') }}" ></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
