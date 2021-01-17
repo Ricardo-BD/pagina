@@ -63,7 +63,7 @@ return [
 
             // Optional SFTP Settings...
              'port' => 22,
-             'root' => storage_path,
+             'root' => storage_path('/'),
             // 'timeout' => 30,
            ],
 
