@@ -41,7 +41,7 @@ class CursosController extends Controller
 
         //guardo la img en el directorio
         //$path = \Storage::disk('public')->putFileAs($directory, $file, $nombre);
-        $path = \Storage::disk('public')->putFileAs($nombre,\File::get($file));
+        $path = \Storage::disk('public')->putFileAs(\Storage::disk('public'),$file,$nombre);
         //ubicacion precisa donde se ubica la img
         $photo = '/storage/'.$path;
         //asigno la ruta de la img a la BD
