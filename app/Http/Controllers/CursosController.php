@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use League\Flysystem\Sftp\SftpAdapter;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EnviarCorreo;
 use App\Models\Cursos;
