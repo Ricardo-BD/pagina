@@ -39,7 +39,7 @@ class CursosController extends Controller
         \Storage::makeDirectory($directory);
 
         //guardo la img en el directorio
-        $path = \Storage::disk('local')->putFileAs($directory, $file, $nombre);
+        $path = \Storage::disk('public')->putFileAs($directory, $file, $nombre);
 
         //ubicacion precisa donde se ubica la img
         $photo = '/storage/app/'.$path;
