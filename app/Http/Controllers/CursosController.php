@@ -35,14 +35,14 @@ class CursosController extends Controller
         $nombre = $file->getClientOriginalName();
         $id = \Auth::id();
         //creo el directorio para la img
-        $directory = "/images/user_id/$id";
-        \Storage::makeDirectory($directory);
+        //$directory = "/images/user_id/$id";
+        //\Storage::makeDirectory($directory);
 
         //guardo la img en el directorio
-        $path = \Storage::disk('public')->putFileAs($directory, $file, $nombre);
-
+        //$path = \Storage::disk('public')->putFileAs($directory, $file, $nombre);
+        $path = $reques->file('file')->storage(public);
         //ubicacion precisa donde se ubica la img
-        $photo = '/storage/app/'.$path;
+        $photo = $path;
         //asigno la ruta de la img a la BD
         $request['image'] = $photo;
         //hago las validaciones correspondientes a los campos de la BD
