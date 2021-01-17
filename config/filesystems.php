@@ -58,8 +58,9 @@ return [
             'username' => 'pagina',
             'password' => 'Rb26570887',
             // Settings for SSH key based authentication...
-            'privateKey' => '/path/to/privateKey',
-            'password' => 'encryption-password',
+            'privateKey' => 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRuGuez9cnv17dE9vZCwh178oU2XMoalfEtFF+goy0CQ8Uq+JJy1NElNl/SEloJwDAG6smhER7WSBOWrLn2bqvpQLPhEZ/SH9hcOHbXgBxkj8BmXMLFH8H16KSB6wsLXF8zx2dntIVei2zvT8iYf8eB99ugpbFdNI8xZgxoLFuI1v2mcG97SJfaNmi+CoY+D0NO3135o9259SPnQI7f9BjueF2zbL9lf3MRV+VLBtfZSUXQ9esEXVFPNt/IybxILqUKD6CQAHVk49jB6yWVG1LzACq3jmXndClbRNOshUVdFQzYLcTREys1oUOEoeApnS+zCpqcq3ll8NlTpIh8Ltb ricardovirtual2425@gmail.com
+',
+            'password' => 'Rb26570887',
 
             // Optional SFTP Settings...
              'port' => 22,
