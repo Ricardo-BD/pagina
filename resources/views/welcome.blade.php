@@ -69,12 +69,9 @@
         .ic{
           width: 100% ! important;
         }
-      }
-      @media(max-width: 813px)
-      {
-          .l2{
-            display: flex ! important;
-            justify-content: center;
+        .l2{
+          display: flex ! important;
+          justify-content: center;
         }
       }
     </style>
