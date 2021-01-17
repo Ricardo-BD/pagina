@@ -40,7 +40,7 @@ class CursosController extends Controller
 
         //guardo la img en el directorio
         //$path = \Storage::disk('public')->putFileAs($directory, $file, $nombre);
-        $path = $request->file('file')->storage('public');
+        $path = \Storage::disk('sftp')->put($nombre,\File::get($file));
         //ubicacion precisa donde se ubica la img
         $photo = $path;
         //asigno la ruta de la img a la BD
@@ -60,7 +60,7 @@ class CursosController extends Controller
             'image' => $photo,
         ]);
         //guardo la img en el directorio
-        $path = \Storage::disk('local')->putFileAs($directory, $file, $nombre);
+        //$path = \Storage::disk('local')->putFileAs($directory, $file, $nombre);
         $post->save();
         //redirijo a la vista predeterminada home
         $email = \Auth::user()->email;
