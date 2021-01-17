@@ -52,7 +52,7 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
         
-        'sftp' => [
+        /*'sftp' => [
             'driver' => 'sftp',
             'host' => 'pagina@178.62.93.197',
             'username' => 'pagina',
@@ -66,7 +66,7 @@ return [
             // 'port' => 22,
             // 'root' => '',
             // 'timeout' => 30,
-           ],
+           ],*/
 
     ],
 
