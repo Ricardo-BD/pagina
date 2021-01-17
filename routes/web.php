@@ -21,4 +21,9 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('welcome');
 
-Route::get('auth/logout', 'AuthController@logout');
+Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'show'])->name('cursos');
+
+Route::get('/cursos/{id}/crear', [App\Http\Controllers\CursosController::class, 'create'])->name('cursos.create');
+
+Route::post('/cursos/{id}/crear', [App\Http\Controllers\CursosController::class, 'store'])->name('cursos.store');	
+

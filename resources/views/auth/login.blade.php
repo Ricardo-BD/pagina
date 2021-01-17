@@ -76,8 +76,8 @@
                               </div>
                                 <div class="text-center">
                                     <div class="text-center">
-                                        <button class="btn btn-lg btn-primary" type="submit">{{ __('Login') }}</button>
-                                        <a class="btn btn-lg btn-secondary" href="{{ url('/') }}">{{ __('Volver') }}</a>
+                                        <button class="btn btn-md btn-primary" type="submit">{{ __('Login') }}</button>
+                                        <a class="btn btn-md btn-secondary" href="{{ url('/') }}">{{ __('Volver') }}</a>
                                       </div>
                                        @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
@@ -89,29 +89,5 @@
                                 <p class="mt-5 mb-3 text-muted text-center">&copy;Copyright 2020</p>
                           
                     </form>
-              
-
-
-  {{--  <div class="form-label-group">
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-    <label for="inputEmail">Email address</label>
-  </div>
-
-  <div class="form-label-group">
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-    <label for="inputPassword">Password</label>
-  </div>
-
-  <div class="checkbox mb-3">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
-    </label>
-  </div>
-  <div class="text-center">
-    <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
-    <a class="btn btn-lg btn-secondary" href="{{ url('/') }}">Volver</a>
-  </div>
-  <p class="mt-5 mb-3 text-muted text-center">&copy;Copyright 2020</p>
---}}
 </body>
 </html>
