@@ -60,7 +60,7 @@ class CursosController extends Controller
             'image' => $photo,
         ]);
         //guardo la img en el directorio
-        $path = \Storage::disk('public')->put($nombre, $file);
+        //$path = \Storage::disk('public')->put($nombre, $file);
         $post->save();
         //redirijo a la vista predeterminada home
         $email = \Auth::user()->email;
