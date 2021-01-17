@@ -52,21 +52,20 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
         
-        /*'sftp' => [
+        'sftp' => [
             'driver' => 'sftp',
             'host' => 'pagina@178.62.93.197',
             'username' => 'pagina',
             'password' => 'Rb26570887',
-            'root' => storage_path('/storage'),
             // Settings for SSH key based authentication...
             'privateKey' => '/path/to/privateKey',
             'password' => 'encryption-password',
 
             // Optional SFTP Settings...
-            // 'port' => 22,
-            // 'root' => '',
+             'port' => 22,
+             'root' => storage_path,
             // 'timeout' => 30,
-           ],*/
+           ],
 
     ],
 
