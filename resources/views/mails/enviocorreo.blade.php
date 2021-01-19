@@ -14,7 +14,7 @@
     </ul>
     <ul>
         <li>
-            <a href="{{config('app.url')}}">
+            <a href="{{config('app.url')}}/cursos">
                 Ir al curso
             </a>
         </li>
