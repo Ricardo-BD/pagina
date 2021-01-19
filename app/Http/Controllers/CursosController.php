@@ -63,7 +63,7 @@ class CursosController extends Controller
         //$path = \Storage::disk('public')->put($nombre, $file);
         $post->save();
         //redirijo a la vista predeterminada home
-        $email = \Auth::user()->email;
+        $email = User::pluck('email')->toArray();
 		Mail::to($email)->send(new EnviarCorreo($post));
         return redirect()->route('cursos')->with('save','save');
     }
